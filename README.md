@@ -1,28 +1,27 @@
 # Libtooz::Vat
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/libtooz/vat`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A VAT module for Rails Workshop 2019.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'libtooz-vat'
+gem 'libtooz-vat', git: 'https://github.com/bkutil/libtooz-vat.git'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install libtooz-vat
-
 ## Usage
 
-TODO: Write usage instructions here
+Get a VAT for 1000 EUR and Slovakia. The country codes are ISO 3166-1
+alpha 2 (2 letters).
+
+    ```
+    Libtooz::Vat.compute(amount: 1000, country: :sk)
+    ```
 
 ## Development
 
