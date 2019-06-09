@@ -7,7 +7,7 @@ A VAT module for Rails Workshop 2019.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'libtooz-vat', git: 'https://github.com/bkutil/libtooz-vat.git'
+gem 'libtooz-vat', git: 'https://github.com/bkutil/libtooz-vat'
 ```
 
 And then execute:
