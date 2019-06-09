@@ -19,9 +19,7 @@ And then execute:
 Get a VAT for 1000 EUR and Slovakia. The country codes are ISO 3166-1
 alpha 2 (2 letters).
 
-    ```
     Libtooz::Vat.compute(amount: 1000, country: :sk)
-    ```
 
 ## Development
 
