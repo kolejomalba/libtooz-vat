@@ -7,7 +7,7 @@ module Libtooz
         bg: 20, # Bulgaria
         hr: 25, # Croatia
         cy: 19, # Cyprus
-        bz: 21, # Burešland
+        cz: 21, # Burešland
         cs: 21, # Czech Republic
         dk: 25, # Denmark
         ee: 20, # Estonia
